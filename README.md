@@ -15,9 +15,9 @@
 
 This is a meta repository that contains documentation and links to two subfolders in this repository, each of them having a distinct purpose:
 
-  1) [hurricane-proc-send-data](https://github.com/team-data-science/azure-data-engineering/hurricane-proc-send-data). Pre-processing of tweets about the hurricane harvey events, combining it with satelite images of the building s with and without damage and simulating a streaming data source by building a python program that sends requests to a Azure API endpoint (#TODO fire CLI)
+  1) [hurricane-proc-send-data](https://github.com/team-data-science/azure-data-engineering/tree/main/hurricane-proc-send-data). Pre-processing of tweets about the hurricane harvey events, combining it with satelite images of the building s with and without damage and simulating a streaming data source by building a python program that sends requests to a Azure API endpoint (#TODO fire CLI)
   
-  2) [hurricane-streaming-az-funcs](https://github.com/team-data-science/azure-data-engineering/hurricane-proc-send-data/azure-func-demo) Azure data streaming pipeline that:
+  2) [hurricane-streaming-az-funcs](https://github.com/team-data-science/azure-data-engineering/tree/main/azure-func-demo) Azure data streaming pipeline that:
         - Ingests tweets from the local source client via Azure API management having a Azure Function as backend
         - Utilizes Azure Event Hub as a message queue service
         - Azure Function that takes messages from Azure Event Hub and writes them to Azure Cosmos Database
