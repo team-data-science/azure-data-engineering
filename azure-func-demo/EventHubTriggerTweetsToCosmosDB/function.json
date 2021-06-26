@@ -1,0 +1,25 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "events",
+      "direction": "in",
+      "eventHubName": "noreur-dev-dataeng-eh1",
+      "connection": "noreurdevdataengEH_RootManageSharedAccessKey_EVENTHUB",
+      "cardinality": "many",
+      "consumerGroup": "$Default",
+      "dataType": "binary"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "outputDocument",
+      "databaseName": "hurricane",
+      "collectionName": "tweets",
+      "createIfNotExists": true,
+      "connectionStringSetting": "noreurdevdataengcsdb_DOCUMENTDB",
+      "partitionKey": "account_id"
+    }
+  ]
+}
