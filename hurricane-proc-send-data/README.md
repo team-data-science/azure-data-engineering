@@ -25,14 +25,6 @@
   <p align="center">
     Project contains python processing code with a purpose to combine tweets and encode satelite images (and metadata from file tree structure) to base64. All content, tweets and images are related to hurricane Harvey. In addition, there is a code that simulates tweet messaging from a local client. NOTE: Since there is no real relation between tweets and satelite images, for the purpose of endgineering data pipelines, I have simulated and randomly assigned ids from images to tweets.
     <br />
-    <a href="https://github.com/baky0905/hurricane-proc-send-data"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/baky0905/hurricane-proc-send-data">View Demo</a>
-    ·
-    <a href="https://github.com/baky0905/hurricane-proc-send-data/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/baky0905/hurricane-proc-send-data/issues">Request Feature</a>
   </p>
 </p>
 
