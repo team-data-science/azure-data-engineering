@@ -48,7 +48,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -102,9 +101,7 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
 
 1. Clone the repo 
-   ```sh
-   git clone https://github.com/baky0905/hurricane-proc-send-data.git
-   ```
+
 
 2. Create a virtual environment  
   ```sh
@@ -186,12 +183,6 @@ python3 src/push_tweets.py send_tweets_to_rest_api 5
 <p align="center">
   <img src="./img/send_tweets.png"" alt="">
 <p>
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/baky0905/hurricane-proc-send-data/issues) for a list of proposed features (and known issues).
 
 
 
