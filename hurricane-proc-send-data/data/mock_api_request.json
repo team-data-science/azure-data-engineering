@@ -1,0 +1,30 @@
+[
+  {
+    "tweet_id": 0,
+    "account_id": 1,
+    "likes": 0,
+    "replies": 0,
+    "retweets": 0,
+    "tweet": "RT TFTCS \"RT BloombergTV \"Hurricane Harvey strengthens as it heads toward landfall in Texas. Here's the latest \ufffd pic.twitter.com/wyN5v81FrF\"\"",
+    "time": 1503679500000,
+    "tear_month_date": "2017-8-25",
+    "damage_flag": "damage",
+    "image_base64": "b'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'",
+    "latitude": 29.837521,
+    "longitude": -95.641183
+  },
+  {
+    "tweet_id": 2,
+    "account_id": 1,
+    "likes": 0,
+    "replies": 0,
+    "retweets": 0,
+    "tweet": "Officials in Texas are giving updates on preparations ahead of Hurricane Harvey. Watch: http://CNN.it/go\ufffdpic.twitter.com/qyCXNZ1njq",
+    "time": 1503681240000,
+    "year_month_day": "2017-8-25",
+    "damage_flag": null,
+    "image_base64": null,
+    "latitude": null,
+    "longitude": null
+  }
+]
